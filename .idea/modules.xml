@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Product-Viewer-master/Product-Viewer.iml" filepath="$PROJECT_DIR$/Product-Viewer-master/Product-Viewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Product-Viewer-master.iml" filepath="$PROJECT_DIR$/.idea/Product-Viewer-master.iml" />
     </modules>
   </component>
