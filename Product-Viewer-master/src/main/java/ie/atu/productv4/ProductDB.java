@@ -54,6 +54,14 @@ public class ProductDB {
             myMusic.setLabel("Columbia group");
             myMusic.setArtist("Pink Floyd");
             p = myMusic;
+        } else if (productCode.equalsIgnoreCase("TV")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("Best TV");
+            myTV.setPrice(800.00);
+            myTV.setScreen("50x70 inches");
+            myTV.setManufacturer("SONY");
+            p = myTV;
         }
         return p;
     }

@@ -11,20 +11,18 @@ public class Music extends Product {
         label = "";
         count++;
     }
-
-    public String getArtist() {
-        return artist;
-    }
     public void setArtist(String version) {
         this.artist = artist;
     }
-
-    public String getLabel() {
-        return label;
+    public String getArtist() {
+        return artist;
     }
 
     public void setLabel(String code) {
         this.label = label;
+    }
+    public String getLabel() {
+        return label;
     }
 
     @Override

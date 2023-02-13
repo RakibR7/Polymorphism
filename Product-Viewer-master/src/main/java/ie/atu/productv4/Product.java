@@ -15,7 +15,6 @@ public class Product {
     public void setCode(String code) {
         this.code = code;
     }
-
     public String getCode() {
         return code;
     }
@@ -23,7 +22,6 @@ public class Product {
     public void setDescription(String description) {
         this.description = description;
     }
-
     public String getDescription() {
         return description;
     }
@@ -31,7 +29,6 @@ public class Product {
     public void setPrice(double price) {
         this.price = price;
     }
-
     public double getPrice() {
         return price;
     }
